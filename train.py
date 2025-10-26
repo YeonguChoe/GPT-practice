@@ -113,4 +113,4 @@ class BigramLanguageModel(nn.Module):
 m = BigramLanguageModel(vocab_size)
 logits, loss = m.forward(contexts, targets)
 print(logits)
-# print(loss)
+print(loss)
